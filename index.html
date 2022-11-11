@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Fetch Repos</title>
+</head>
+<body>
+
+    <div class="search-box">
+        <input type="text" placeholder="Github Username" id="input">
+        <button class="get-repos" onclick="getRepos()">Get Repos</button>
+    </div>
+    <div class="repos-container">
+        <h3 id="Header"></h3>
+        <div class="repos">
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
